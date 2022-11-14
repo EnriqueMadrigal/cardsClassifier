@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD20BDA82922F1CF00308F81 /* CardClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */; };
+		CD20BDAA2922F1CF00308F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDA92922F1CF00308F81 /* ContentView.swift */; };
+		CD20BDAC2922F1D000308F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD20BDAB2922F1D000308F81 /* Assets.xcassets */; };
+		CD20BDB02922F1D000308F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD20BDAF2922F1D000308F81 /* Preview Assets.xcassets */; };
+		CD20BDBA2922F1D000308F81 /* CardClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDB92922F1D000308F81 /* CardClassifierTests.swift */; };
+		CD20BDC42922F1D000308F81 /* CardClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDC32922F1D000308F81 /* CardClassifierUITests.swift */; };
+		CD20BDC62922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDC52922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD20BDB62922F1D000308F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD20BD9C2922F1CF00308F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD20BDA32922F1CF00308F81;
+			remoteInfo = CardClassifier;
+		};
+		CD20BDC02922F1D000308F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD20BD9C2922F1CF00308F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD20BDA32922F1CF00308F81;
+			remoteInfo = CardClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD20BDA42922F1CF00308F81 /* CardClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierApp.swift; sourceTree = "<group>"; };
+		CD20BDA92922F1CF00308F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD20BDAB2922F1D000308F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD20BDAD2922F1D000308F81 /* CardClassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardClassifier.entitlements; sourceTree = "<group>"; };
+		CD20BDAF2922F1D000308F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD20BDB52922F1D000308F81 /* CardClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD20BDB92922F1D000308F81 /* CardClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierTests.swift; sourceTree = "<group>"; };
+		CD20BDBF2922F1D000308F81 /* CardClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD20BDC32922F1D000308F81 /* CardClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierUITests.swift; sourceTree = "<group>"; };
+		CD20BDC52922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD20BDA12922F1CF00308F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDB22922F1D000308F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDBC2922F1D000308F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD20BD9B2922F1CF00308F81 = {
+			isa = PBXGroup;
+			children = (
+				CD20BDA62922F1CF00308F81 /* CardClassifier */,
+				CD20BDB82922F1D000308F81 /* CardClassifierTests */,
+				CD20BDC22922F1D000308F81 /* CardClassifierUITests */,
+				CD20BDA52922F1CF00308F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD20BDA52922F1CF00308F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDA42922F1CF00308F81 /* CardClassifier.app */,
+				CD20BDB52922F1D000308F81 /* CardClassifierTests.xctest */,
+				CD20BDBF2922F1D000308F81 /* CardClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD20BDA62922F1CF00308F81 /* CardClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */,
+				CD20BDA92922F1CF00308F81 /* ContentView.swift */,
+				CD20BDAB2922F1D000308F81 /* Assets.xcassets */,
+				CD20BDAD2922F1D000308F81 /* CardClassifier.entitlements */,
+				CD20BDAE2922F1D000308F81 /* Preview Content */,
+			);
+			path = CardClassifier;
+			sourceTree = "<group>";
+		};
+		CD20BDAE2922F1D000308F81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDAF2922F1D000308F81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD20BDB82922F1D000308F81 /* CardClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDB92922F1D000308F81 /* CardClassifierTests.swift */,
+			);
+			path = CardClassifierTests;
+			sourceTree = "<group>";
+		};
+		CD20BDC22922F1D000308F81 /* CardClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDC32922F1D000308F81 /* CardClassifierUITests.swift */,
+				CD20BDC52922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift */,
+			);
+			path = CardClassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD20BDA32922F1CF00308F81 /* CardClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD20BDC92922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifier" */;
+			buildPhases = (
+				CD20BDA02922F1CF00308F81 /* Sources */,
+				CD20BDA12922F1CF00308F81 /* Frameworks */,
+				CD20BDA22922F1CF00308F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardClassifier;
+			productName = CardClassifier;
+			productReference = CD20BDA42922F1CF00308F81 /* CardClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD20BDB42922F1D000308F81 /* CardClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD20BDCC2922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifierTests" */;
+			buildPhases = (
+				CD20BDB12922F1D000308F81 /* Sources */,
+				CD20BDB22922F1D000308F81 /* Frameworks */,
+				CD20BDB32922F1D000308F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD20BDB72922F1D000308F81 /* PBXTargetDependency */,
+			);
+			name = CardClassifierTests;
+			productName = CardClassifierTests;
+			productReference = CD20BDB52922F1D000308F81 /* CardClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD20BDBE2922F1D000308F81 /* CardClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD20BDCF2922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifierUITests" */;
+			buildPhases = (
+				CD20BDBB2922F1D000308F81 /* Sources */,
+				CD20BDBC2922F1D000308F81 /* Frameworks */,
+				CD20BDBD2922F1D000308F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD20BDC12922F1D000308F81 /* PBXTargetDependency */,
+			);
+			name = CardClassifierUITests;
+			productName = CardClassifierUITests;
+			productReference = CD20BDBF2922F1D000308F81 /* CardClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD20BD9C2922F1CF00308F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CD20BDA32922F1CF00308F81 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					CD20BDB42922F1D000308F81 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CD20BDA32922F1CF00308F81;
+					};
+					CD20BDBE2922F1D000308F81 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CD20BDA32922F1CF00308F81;
+					};
+				};
+			};
+			buildConfigurationList = CD20BD9F2922F1CF00308F81 /* Build configuration list for PBXProject "CardClassifier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD20BD9B2922F1CF00308F81;
+			productRefGroup = CD20BDA52922F1CF00308F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD20BDA32922F1CF00308F81 /* CardClassifier */,
+				CD20BDB42922F1D000308F81 /* CardClassifierTests */,
+				CD20BDBE2922F1D000308F81 /* CardClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD20BDA22922F1CF00308F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20BDB02922F1D000308F81 /* Preview Assets.xcassets in Resources */,
+				CD20BDAC2922F1D000308F81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDB32922F1D000308F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDBD2922F1D000308F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD20BDA02922F1CF00308F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20BDAA2922F1CF00308F81 /* ContentView.swift in Sources */,
+				CD20BDA82922F1CF00308F81 /* CardClassifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDB12922F1D000308F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20BDBA2922F1D000308F81 /* CardClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD20BDBB2922F1D000308F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20BDC42922F1D000308F81 /* CardClassifierUITests.swift in Sources */,
+				CD20BDC62922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD20BDB72922F1D000308F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD20BDA32922F1CF00308F81 /* CardClassifier */;
+			targetProxy = CD20BDB62922F1D000308F81 /* PBXContainerItemProxy */;
+		};
+		CD20BDC12922F1D000308F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD20BDA32922F1CF00308F81 /* CardClassifier */;
+			targetProxy = CD20BDC02922F1D000308F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD20BDC72922F1D000308F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD20BDC82922F1D000308F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD20BDCA2922F1D000308F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CardClassifier/CardClassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD20BDCB2922F1D000308F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CardClassifier/CardClassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD20BDCD2922F1D000308F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardClassifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardClassifier";
+			};
+			name = Debug;
+		};
+		CD20BDCE2922F1D000308F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardClassifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardClassifier";
+			};
+			name = Release;
+		};
+		CD20BDD02922F1D000308F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardClassifier;
+			};
+			name = Debug;
+		};
+		CD20BDD12922F1D000308F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63PBXYGL4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardClassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD20BD9F2922F1CF00308F81 /* Build configuration list for PBXProject "CardClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD20BDC72922F1D000308F81 /* Debug */,
+				CD20BDC82922F1D000308F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD20BDC92922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD20BDCA2922F1D000308F81 /* Debug */,
+				CD20BDCB2922F1D000308F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD20BDCC2922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD20BDCD2922F1D000308F81 /* Debug */,
+				CD20BDCE2922F1D000308F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD20BDCF2922F1D000308F81 /* Build configuration list for PBXNativeTarget "CardClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD20BDD02922F1D000308F81 /* Debug */,
+				CD20BDD12922F1D000308F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD20BD9C2922F1CF00308F81 /* Project object */;
+}
