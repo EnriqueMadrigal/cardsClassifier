@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D6F0F2D4-2A0F-4485-98B8-945A20AE7931"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46920042-9C1A-4BF4-A861-B14906727B47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardClassifier/Utils/UploadHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "uploadImageToServer(imageData:completation:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "46920042-9C1A-4BF4-A861-B14906727B47 - 5aa0b0586c97420b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in CardClassifier.uploadImageToServer(imageData: __C.UIImage, completation: (Swift.Result&lt;Swift.Optional&lt;Foundation.Data&gt;, CardClassifier.ResultData.ResultError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardClassifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/algrthm/Documents/bairesdev/CardClassifier/CardClassifier/Utils/UploadHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "46920042-9C1A-4BF4-A861-B14906727B47 - 5aa0b0586c97420b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in CardClassifier.uploadImageToServer(imageData: __C.UIImage, completation: (Swift.Result&lt;Swift.Optional&lt;Foundation.Data&gt;, CardClassifier.ResultData.ResultError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardClassifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/algrthm/Documents/bairesdev/CardClassifier/CardClassifier/Utils/UploadHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

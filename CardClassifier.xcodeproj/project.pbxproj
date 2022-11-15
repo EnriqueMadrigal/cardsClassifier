@@ -14,6 +14,22 @@
 		CD20BDBA2922F1D000308F81 /* CardClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDB92922F1D000308F81 /* CardClassifierTests.swift */; };
 		CD20BDC42922F1D000308F81 /* CardClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDC32922F1D000308F81 /* CardClassifierUITests.swift */; };
 		CD20BDC62922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDC52922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift */; };
+		CD20BDD42922F6DA00308F81 /* ButtonsStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDD32922F6DA00308F81 /* ButtonsStyles.swift */; };
+		CD20BDD62922F70600308F81 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDD52922F70600308F81 /* CheckBoxView.swift */; };
+		CD20BDD82922F73000308F81 /* DropDownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDD72922F73000308F81 /* DropDownPicker.swift */; };
+		CD20BDDB2922F77200308F81 /* CustomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDDA2922F77200308F81 /* CustomModel.swift */; };
+		CD20BDDD2922F7BA00308F81 /* InputStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDDC2922F7BA00308F81 /* InputStyles.swift */; };
+		CD20BDE02922F80700308F81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDDF2922F80700308F81 /* Extensions.swift */; };
+		CD20BDE22922F83900308F81 /* LabelsStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDE12922F83900308F81 /* LabelsStyles.swift */; };
+		CD20BDE52922F8D800308F81 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDE42922F8D800308F81 /* MainView.swift */; };
+		CD20BDE72922FAE800308F81 /* TakeSnapShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDE62922FAE800308F81 /* TakeSnapShot.swift */; };
+		CD20BDEA2922FC3500308F81 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDE92922FC3500308F81 /* ImagePickerView.swift */; };
+		CD20BDEC2922FC7000308F81 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDEB2922FC7000308F81 /* Coordinator.swift */; };
+		CD20BDEF2923152600308F81 /* SnapShotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDEE2923152600308F81 /* SnapShotViewModel.swift */; };
+		CD20BDF1292317C200308F81 /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDF0292317C200308F81 /* UploadHelper.swift */; };
+		CD20BDF4292318BB00308F81 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CD20BDF3292318BB00308F81 /* Alamofire */; };
+		CD20BDF62923194600308F81 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDF52923194600308F81 /* ResultError.swift */; };
+		CD20BDF8292319EF00308F81 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDF7292319EF00308F81 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,21 @@
 		CD20BDBF2922F1D000308F81 /* CardClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD20BDC32922F1D000308F81 /* CardClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierUITests.swift; sourceTree = "<group>"; };
 		CD20BDC52922F1D000308F81 /* CardClassifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD20BDD32922F6DA00308F81 /* ButtonsStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsStyles.swift; sourceTree = "<group>"; };
+		CD20BDD52922F70600308F81 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		CD20BDD72922F73000308F81 /* DropDownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPicker.swift; sourceTree = "<group>"; };
+		CD20BDDA2922F77200308F81 /* CustomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModel.swift; sourceTree = "<group>"; };
+		CD20BDDC2922F7BA00308F81 /* InputStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyles.swift; sourceTree = "<group>"; };
+		CD20BDDF2922F80700308F81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD20BDE12922F83900308F81 /* LabelsStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsStyles.swift; sourceTree = "<group>"; };
+		CD20BDE42922F8D800308F81 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CD20BDE62922FAE800308F81 /* TakeSnapShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeSnapShot.swift; sourceTree = "<group>"; };
+		CD20BDE92922FC3500308F81 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		CD20BDEB2922FC7000308F81 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CD20BDEE2923152600308F81 /* SnapShotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapShotViewModel.swift; sourceTree = "<group>"; };
+		CD20BDF0292317C200308F81 /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadHelper.swift; sourceTree = "<group>"; };
+		CD20BDF52923194600308F81 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
+		CD20BDF7292319EF00308F81 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD20BDF4292318BB00308F81 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +127,18 @@
 		CD20BDA62922F1CF00308F81 /* CardClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				CD20BDED292314DB00308F81 /* ViewModels */,
+				CD20BDE82922FC1E00308F81 /* Utils */,
+				CD20BDE32922F8C800308F81 /* Views */,
+				CD20BDDE2922F7D600308F81 /* Extensions */,
+				CD20BDD92922F74F00308F81 /* Models */,
+				CD20BDD22922F68C00308F81 /* Styles */,
 				CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */,
 				CD20BDA92922F1CF00308F81 /* ContentView.swift */,
 				CD20BDAB2922F1D000308F81 /* Assets.xcassets */,
 				CD20BDAD2922F1D000308F81 /* CardClassifier.entitlements */,
 				CD20BDAE2922F1D000308F81 /* Preview Content */,
+				CD20BDF7292319EF00308F81 /* Common.swift */,
 			);
 			path = CardClassifier;
 			sourceTree = "<group>";
@@ -129,6 +168,62 @@
 			path = CardClassifierUITests;
 			sourceTree = "<group>";
 		};
+		CD20BDD22922F68C00308F81 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDD32922F6DA00308F81 /* ButtonsStyles.swift */,
+				CD20BDD52922F70600308F81 /* CheckBoxView.swift */,
+				CD20BDD72922F73000308F81 /* DropDownPicker.swift */,
+				CD20BDDC2922F7BA00308F81 /* InputStyles.swift */,
+				CD20BDE12922F83900308F81 /* LabelsStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CD20BDD92922F74F00308F81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDDA2922F77200308F81 /* CustomModel.swift */,
+				CD20BDF52923194600308F81 /* ResultError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD20BDDE2922F7D600308F81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDDF2922F80700308F81 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD20BDE32922F8C800308F81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDE42922F8D800308F81 /* MainView.swift */,
+				CD20BDE62922FAE800308F81 /* TakeSnapShot.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD20BDE82922FC1E00308F81 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDE92922FC3500308F81 /* ImagePickerView.swift */,
+				CD20BDEB2922FC7000308F81 /* Coordinator.swift */,
+				CD20BDF0292317C200308F81 /* UploadHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD20BDED292314DB00308F81 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD20BDEE2923152600308F81 /* SnapShotViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +240,9 @@
 			dependencies = (
 			);
 			name = CardClassifier;
+			packageProductDependencies = (
+				CD20BDF3292318BB00308F81 /* Alamofire */,
+			);
 			productName = CardClassifier;
 			productReference = CD20BDA42922F1CF00308F81 /* CardClassifier.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +315,9 @@
 				Base,
 			);
 			mainGroup = CD20BD9B2922F1CF00308F81;
+			packageReferences = (
+				CD20BDF2292318BB00308F81 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = CD20BDA52922F1CF00308F81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +360,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD20BDF8292319EF00308F81 /* Common.swift in Sources */,
+				CD20BDDB2922F77200308F81 /* CustomModel.swift in Sources */,
 				CD20BDAA2922F1CF00308F81 /* ContentView.swift in Sources */,
+				CD20BDEC2922FC7000308F81 /* Coordinator.swift in Sources */,
+				CD20BDD42922F6DA00308F81 /* ButtonsStyles.swift in Sources */,
+				CD20BDE72922FAE800308F81 /* TakeSnapShot.swift in Sources */,
+				CD20BDF62923194600308F81 /* ResultError.swift in Sources */,
+				CD20BDEA2922FC3500308F81 /* ImagePickerView.swift in Sources */,
+				CD20BDE52922F8D800308F81 /* MainView.swift in Sources */,
+				CD20BDE22922F83900308F81 /* LabelsStyles.swift in Sources */,
+				CD20BDE02922F80700308F81 /* Extensions.swift in Sources */,
 				CD20BDA82922F1CF00308F81 /* CardClassifierApp.swift in Sources */,
+				CD20BDD82922F73000308F81 /* DropDownPicker.swift in Sources */,
+				CD20BDDD2922F7BA00308F81 /* InputStyles.swift in Sources */,
+				CD20BDF1292317C200308F81 /* UploadHelper.swift in Sources */,
+				CD20BDEF2923152600308F81 /* SnapShotViewModel.swift in Sources */,
+				CD20BDD62922F70600308F81 /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +535,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to the camera to take snapshots for cards";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -427,9 +544,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -437,7 +554,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,6 +576,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need access to the camera to take snapshots for cards";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -465,9 +585,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -475,7 +595,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,7 +619,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,7 +644,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,7 +668,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,7 +692,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.algrthm.CardClassifierUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -612,6 +742,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD20BDF2292318BB00308F81 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD20BDF3292318BB00308F81 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD20BDF2292318BB00308F81 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD20BD9C2922F1CF00308F81 /* Project object */;
 }
