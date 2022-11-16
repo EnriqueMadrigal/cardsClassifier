@@ -13,6 +13,8 @@ struct TakeSnapShot: View {
     @State private var sourceType: UIImagePickerController.SourceType = .camera
        // @State private var selectedImage: UIImage?
         @State private var isImagePickerDisplay = false
+    
+     
    
     @StateObject var uploadModel = SnapShotViewModel()
     
@@ -27,52 +29,73 @@ struct TakeSnapShot: View {
             
             Header3(text: "Take a photo of your card").padding(.top,20)
             
-            
+            ZStack {
+                
             HStack{
                 Spacer()
                 
                 if  uploadModel.currentImage != nil {
-                                    Image(uiImage: uploadModel.currentImage!)
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fit)
-                                        //.clipShape(Circle())
-                                        .frame(width: 220, height: 280)
-                                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
-                                        
-                                } else {
-                                    Image(systemName: "photo")
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fit)
-                                        //.clipShape(Circle())
-                                        .frame(width: 220, height: 280)
-                                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
-                                       
-                                }
+                    Image(uiImage: uploadModel.currentImage!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    //.clipShape(Circle())
+                        .frame(width: 220, height: 280)
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+                    
+                } else {
+                    Image(systemName: "photo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    //.clipShape(Circle())
+                        .frame(width: 220, height: 280)
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+                    
+                }
                 
                 
                 
                 
-            
+                
                 
                 Spacer()
                 
-     
+                
             }.padding(.top,20).padding(.leading,20).padding(.trailing,20)
             
+                VStack {
+                    if let currentData = uploadModel.PokemonData {
+                        
+                        InformationView(PokemonData: currentData)
+                        CustomButton(text: "OK"){
+                            uploadModel.PokemonData = nil
+                        }.padding(.top,10).padding(.bottom,10)
+                    }
+                    
+                    
+                }.frame(width: 360).overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+                    .background(Color(UIColor.AppGray3))
+                /*
+                    .padding(.leading,20).padding(.trailing,20).foregroundColor(.white)
+                    .background(Color.gray)
+                */
+            }
             
             Group {
                 HStack{
                     Spacer()
                     CameraButton() {
-                        self.sourceType = .camera
-                        self.isImagePickerDisplay = true
+                        if uploadModel.PokemonData == nil {
+                            uploadModel.isCamera = true
+                            self.isImagePickerDisplay = true
+                        }
                         
                     }
                     Spacer()
                     LibraryButton() {
-                        self.sourceType = .photoLibrary
-                        self.isImagePickerDisplay = true
-                        
+                        if uploadModel.PokemonData == nil {
+                            uploadModel.isCamera = false
+                            self.isImagePickerDisplay = true
+                        }
                         
                     }
                     
@@ -93,17 +116,32 @@ struct TakeSnapShot: View {
             }
             
             
+     
+            
             
             CustomButton(text: "Upload your photo") {
-                uploadModel.uploadFile()
+                if uploadModel.PokemonData == nil {
+                    uploadModel.uploadFile()
+                }
+                
             }.padding(.bottom,40)
             
         }// VStack
         .sheet(isPresented: self.$isImagePickerDisplay) {
            
-                        ImagePickerView(selectedImage: self.$uploadModel.currentImage, sourceType: self.sourceType)
-                    }
-        
+       
+                if uploadModel.isCamera{
+                    ImagePickerView(selectedImage: self.$uploadModel.currentImage, sourceType: UIImagePickerController.SourceType.camera)
+                    
+                }
+                else {
+                    ImagePickerView(selectedImage: self.$uploadModel.currentImage, sourceType: UIImagePickerController.SourceType.photoLibrary)
+                }
+                
+            }
+            
+            
+             
         
         
     }

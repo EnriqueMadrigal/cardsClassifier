@@ -39,7 +39,7 @@ func uploadImageToServer(imageData: UIImage, completation: @escaping (Result<Dat
                "accept": "application/json"
            ]
     
-    let urlString = Common.api_url + "pokesearch_url"
+    let urlString = Common.api_url + "pokesearch"
  
     
     AF.upload(multipartFormData: { (formData) in

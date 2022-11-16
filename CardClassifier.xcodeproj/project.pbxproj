@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1D14D1292405C800EF402A /* PokemonResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D14D0292405C800EF402A /* PokemonResult.swift */; };
+		CD1D14D32924191E00EF402A /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D14D22924191E00EF402A /* InformationView.swift */; };
 		CD20BDA82922F1CF00308F81 /* CardClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */; };
 		CD20BDAA2922F1CF00308F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDA92922F1CF00308F81 /* ContentView.swift */; };
 		CD20BDAC2922F1D000308F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD20BDAB2922F1D000308F81 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1D14D0292405C800EF402A /* PokemonResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResult.swift; sourceTree = "<group>"; };
+		CD1D14D22924191E00EF402A /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		CD20BDA42922F1CF00308F81 /* CardClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD20BDA72922F1CF00308F81 /* CardClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClassifierApp.swift; sourceTree = "<group>"; };
 		CD20BDA92922F1CF00308F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 			children = (
 				CD20BDDA2922F77200308F81 /* CustomModel.swift */,
 				CD20BDF52923194600308F81 /* ResultError.swift */,
+				CD1D14D0292405C800EF402A /* PokemonResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			children = (
 				CD20BDE42922F8D800308F81 /* MainView.swift */,
 				CD20BDE62922FAE800308F81 /* TakeSnapShot.swift */,
+				CD1D14D22924191E00EF402A /* InformationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,12 +376,14 @@
 				CD20BDEA2922FC3500308F81 /* ImagePickerView.swift in Sources */,
 				CD20BDE52922F8D800308F81 /* MainView.swift in Sources */,
 				CD20BDE22922F83900308F81 /* LabelsStyles.swift in Sources */,
+				CD1D14D1292405C800EF402A /* PokemonResult.swift in Sources */,
 				CD20BDE02922F80700308F81 /* Extensions.swift in Sources */,
 				CD20BDA82922F1CF00308F81 /* CardClassifierApp.swift in Sources */,
 				CD20BDD82922F73000308F81 /* DropDownPicker.swift in Sources */,
 				CD20BDDD2922F7BA00308F81 /* InputStyles.swift in Sources */,
 				CD20BDF1292317C200308F81 /* UploadHelper.swift in Sources */,
 				CD20BDEF2923152600308F81 /* SnapShotViewModel.swift in Sources */,
+				CD1D14D32924191E00EF402A /* InformationView.swift in Sources */,
 				CD20BDD62922F70600308F81 /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = CardClassifier/CardClassifier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -568,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = CardClassifier/CardClassifier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
