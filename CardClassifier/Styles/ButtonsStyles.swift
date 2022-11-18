@@ -317,3 +317,50 @@ public struct LibraryButton: View {
     }
     
 }
+
+
+public struct PositiveAnswer: View {
+    
+   
+    var background: Color = Color.white
+    
+    var handler: (() -> Void)
+    
+    public var body: some View {
+        HStack{
+            
+            Button(action: handler, label: {
+                Image(systemName: "checkmark.circle")
+                    .resizable()
+                    .frame(width: 42, height: 42, alignment: .center)
+                
+            })
+            
+            Header3(text: "YES").frame(width: 40, height: 38)
+        }//.frame(width: 120).overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+    }
+    
+}
+
+public struct NegativeAnswer: View {
+    
+   
+    var background: Color = Color.white
+    
+    var handler: (() -> Void)
+    
+    public var body: some View {
+        HStack{
+            
+            Button(action: handler, label: {
+                Image(systemName: "x.circle")
+                    .resizable()
+                    .frame(width: 42, height: 42, alignment: .center)
+                
+            })
+            
+            Header3(text: "NO").frame(width: 40, height: 38)
+        }//.frame(width: 120).overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+    }
+    
+}

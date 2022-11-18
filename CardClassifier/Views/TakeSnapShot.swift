@@ -53,7 +53,7 @@ struct TakeSnapShot: View {
                 }
                 
                 
-                
+              
                 
                 
                 
@@ -65,10 +65,13 @@ struct TakeSnapShot: View {
                 VStack {
                     if let currentData = uploadModel.PokemonData {
                         
-                        InformationView(PokemonData: currentData)
+                        InformationView(PokemonData: currentData, snapShotViewModel: self.uploadModel)
+                       /*
                         CustomButton(text: "OK"){
                             uploadModel.PokemonData = nil
                         }.padding(.top,10).padding(.bottom,10)
+                        */
+                        
                     }
                     
                     
@@ -115,10 +118,11 @@ struct TakeSnapShot: View {
                 
             }
             
-            
-     
-            
-            
+          /*
+            CustomButton(text: "test"){
+                uploadModel.testData()
+            }
+           */
             CustomButton(text: "Upload your photo") {
                 if uploadModel.PokemonData == nil {
                     uploadModel.uploadFile()

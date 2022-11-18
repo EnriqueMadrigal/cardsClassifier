@@ -78,3 +78,48 @@ func uploadImageToServer(imageData: UIImage, completation: @escaping (Result<Dat
     
 }
 
+func uploadResultData(request_id: String, correct: Bool, is_holo: Bool, is_reverse: Bool,completation: @escaping (Result<Data?, ResultData.ResultError>) -> Void)
+{
+    let urlString = Common.api_url + "classification-data"
+    
+    let headers : Alamofire.HTTPHeaders = [
+               "cache-control" : "no-cache",
+               "Accept-Language" : "en",
+               "Connection" : "close",
+               "x-token": Common.token,
+               "accept": "application/json"
+           ]
+    
+    //let experiment_id = UUID().uuidString
+    
+    let data_params = ClassificationPostData(classification_request_id: request_id, correct: correct, is_holo: is_holo, is_reverse: is_reverse)
+    
+    
+    // encoding: URLEncoding.httpBody,
+    AF.request(urlString, method: .post,parameters: data_params, encoder: JSONParameterEncoder.default ,headers: headers).validate(statusCode: 200 ..< 502).responseData {response in
+        
+        let statusCode = response.response?.statusCode
+        
+        switch response.result{
+        case .success(_):
+            switch statusCode {
+                case 200:
+                completation(.success(response.data))
+        
+            default:
+            completation(.failure(.datafailedUpload))
+            }
+            
+           
+        case .failure(let error):
+            print(error)
+            completation(.failure(.datafailedUpload))
+                  
+        }
+        
+    }
+    
+    
+    
+}
+

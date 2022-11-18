@@ -54,7 +54,7 @@ class SnapShotViewModel: NSObject, ObservableObject{
                                     let jsonData = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:String]
                                     //let jsonData = try JSONSerialization.data(withJSONObject: currentData)
                                     
-                                    print (jsonData)
+                                    //print (jsonData)
                                     
                                     self.PokemonData = PokemonResult(pokemon: "", set: "", rarity: "", poke_id: "", image_url: "", request_id: "")
                                     
@@ -138,7 +138,7 @@ class SnapShotViewModel: NSObject, ObservableObject{
                 let jsonData = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:String]
                 //let jsonData = try JSONSerialization.data(withJSONObject: currentData)
                 
-                print (jsonData)
+                //print (jsonData)
                 
                 self.PokemonData = PokemonResult(pokemon: "", set: "", rarity: "", poke_id: "", image_url: "", request_id: "")
                 

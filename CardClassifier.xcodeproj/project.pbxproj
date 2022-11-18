@@ -32,6 +32,8 @@
 		CD20BDF4292318BB00308F81 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CD20BDF3292318BB00308F81 /* Alamofire */; };
 		CD20BDF62923194600308F81 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDF52923194600308F81 /* ResultError.swift */; };
 		CD20BDF8292319EF00308F81 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20BDF7292319EF00308F81 /* Common.swift */; };
+		CD368D772926FB9700680D5A /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD368D762926FB9700680D5A /* InformationViewModel.swift */; };
+		CDC4E7A6292704AC000BC820 /* ClassificationPostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4E7A5292704AC000BC820 /* ClassificationPostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		CD20BDF0292317C200308F81 /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadHelper.swift; sourceTree = "<group>"; };
 		CD20BDF52923194600308F81 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
 		CD20BDF7292319EF00308F81 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CD368D762926FB9700680D5A /* InformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModel.swift; sourceTree = "<group>"; };
+		CDC4E7A5292704AC000BC820 /* ClassificationPostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationPostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,8 @@
 				CD20BDDA2922F77200308F81 /* CustomModel.swift */,
 				CD20BDF52923194600308F81 /* ResultError.swift */,
 				CD1D14D0292405C800EF402A /* PokemonResult.swift */,
+				CD368D762926FB9700680D5A /* InformationViewModel.swift */,
+				CDC4E7A5292704AC000BC820 /* ClassificationPostData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -369,6 +375,8 @@
 				CD20BDF8292319EF00308F81 /* Common.swift in Sources */,
 				CD20BDDB2922F77200308F81 /* CustomModel.swift in Sources */,
 				CD20BDAA2922F1CF00308F81 /* ContentView.swift in Sources */,
+				CD368D772926FB9700680D5A /* InformationViewModel.swift in Sources */,
+				CDC4E7A6292704AC000BC820 /* ClassificationPostData.swift in Sources */,
 				CD20BDEC2922FC7000308F81 /* Coordinator.swift in Sources */,
 				CD20BDD42922F6DA00308F81 /* ButtonsStyles.swift in Sources */,
 				CD20BDE72922FAE800308F81 /* TakeSnapShot.swift in Sources */,

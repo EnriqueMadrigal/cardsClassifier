@@ -25,6 +25,8 @@ class ResultData: ObservableObject {
        
         case noImageSelected
         
+        case noerror
+        
         var id: String {
             self.localizedDescription
         }
@@ -44,13 +46,17 @@ class ResultData: ObservableObject {
                 return "Unable to upload image to server"
                 
             case .datafailedUpload:
-                return "Unable to upload haptic data to server"
+                return "Unable to upload data to server"
                 
             case .encodeJasonError:
                 return "Error encoding data to Json"
                 
             case .noImageSelected:
                 return "Image not selected"
+
+                
+            case .noerror:
+                return "Data sucessfully uploaded"
                 
             }
                 
