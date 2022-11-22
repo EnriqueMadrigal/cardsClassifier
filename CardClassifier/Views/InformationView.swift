@@ -17,21 +17,24 @@ struct InformationView: View {
     
     @StateObject var snapShotViewModel: SnapShotViewModel
     
+    @State var imageResult: UIImage = UIImage()
     
     var body: some View {
         
         
         
         VStack{
+            /*
             Image(systemName: "flag.2.crossed")
                 .resizable()
-                .frame(width: 64, height: 48, alignment: .center).onAppear{
-                    self.uploadModel.requestSetting = self.PokemonData
-                }
+                .frame(width: 64, height: 48, alignment: .center)
+            */
             
             HStack {
                 
-                Header3(text: "Pokemon:").frame(width: 80)
+                Header3(text: "Pokemon:").frame(width: 80).onAppear{
+                    self.uploadModel.requestSetting = self.PokemonData
+                }
                 Header3(text: PokemonData.pokemon)
                 Spacer()   .alert(item: $uploadModel.error){error in
                     Alert(title: Text("Message:"), message: Text(error.localizedDescription), dismissButton: .default(Text("OK")){
@@ -48,7 +51,7 @@ struct InformationView: View {
                 Header3(text: PokemonData.set)
                 Spacer()
                 
-            }.padding(.top,20).padding(.leading,20).padding(.trailing,20)
+            }.padding(.top,10).padding(.leading,20).padding(.trailing,20)
           
             HStack {
                 
@@ -56,7 +59,7 @@ struct InformationView: View {
                 Header3(text: PokemonData.rarity)
                 Spacer()
                 
-            }.padding(.top,20).padding(.leading,20).padding(.trailing,20)
+            }.padding(.top,10).padding(.leading,20).padding(.trailing,20)
           
             HStack{
                 
@@ -71,8 +74,38 @@ struct InformationView: View {
                 
                 Spacer()
                 
-            }.padding(.top, 20).padding(.leading,20).padding(.trailing,20)
+            }.padding(.top, 10).padding(.leading,20).padding(.trailing,20)
           
+            Image(uiImage: self.imageResult)
+                .resizable()
+                .frame(width: 280, height: 340, alignment: .center).onAppear{
+                    
+                    
+                    loadImageFromUrl(url: self.PokemonData.image_url) {(result: Result<UIImage?, ResultData.ResultError>) in
+                        
+                        switch result{
+                            
+                        case .success(let image?):
+                            self.imageResult = image
+                            
+                        case .failure(let cur_error):
+                            Alert(title: Text("Message:"), message: Text(cur_error.localizedDescription), dismissButton: .default(Text("OK")){
+                                //self.snapShotViewModel.PokemonData = nil
+                            })
+                            
+                        case .success(.none):
+                            Alert(title: Text("Message:"), message: Text(ResultData.ResultError.failImageDonwload.localizedDescription), dismissButton: .default(Text("OK")){
+                                //self.snapShotViewModel.PokemonData = nil
+                            })
+                        }
+                        
+                        
+                    }
+                    
+                    
+                }
+            
+            
             
             Header2(text: "It is correct ?").padding(.top,20)
             

@@ -24,6 +24,7 @@ class ResultData: ObservableObject {
         case encodeJasonError
        
         case noImageSelected
+       case failImageDonwload
         
         case noerror
         
@@ -54,6 +55,8 @@ class ResultData: ObservableObject {
             case .noImageSelected:
                 return "Image not selected"
 
+            case .failImageDonwload:
+                return "Unable to dowload image"
                 
             case .noerror:
                 return "Data sucessfully uploaded"

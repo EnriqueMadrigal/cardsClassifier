@@ -83,12 +83,12 @@ func uploadResultData(request_id: String, correct: Bool, is_holo: Bool, is_rever
     let urlString = Common.api_url + "classification-data"
     
     let headers : Alamofire.HTTPHeaders = [
-               "cache-control" : "no-cache",
-               "Accept-Language" : "en",
-               "Connection" : "close",
-               "x-token": Common.token,
-               "accept": "application/json"
-           ]
+        "cache-control" : "no-cache",
+        "Accept-Language" : "en",
+        "Connection" : "close",
+        "x-token": Common.token,
+        "accept": "application/json"
+    ]
     
     //let experiment_id = UUID().uuidString
     
@@ -103,23 +103,47 @@ func uploadResultData(request_id: String, correct: Bool, is_holo: Bool, is_rever
         switch response.result{
         case .success(_):
             switch statusCode {
-                case 200:
+            case 200:
                 completation(.success(response.data))
-        
+                
             default:
-            completation(.failure(.datafailedUpload))
+                completation(.failure(.datafailedUpload))
             }
             
-           
+            
         case .failure(let error):
             print(error)
             completation(.failure(.datafailedUpload))
-                  
+            
         }
         
     }
     
+}
     
+    
+    
+func loadImageFromUrl(url: String, completation: @escaping (Result<UIImage?, ResultData.ResultError>)-> Void)
+{
+        
+        
+        AF.request(url,method: .get).response{ response in
+
+           switch response.result {
+            case .success(let responseData):
+                let return_image =  UIImage(data: responseData!, scale:1)
+               completation(.success(return_image))
+               //return return_image
+               
+            case .failure(let error):
+                print("error--->",error)
+               completation(.failure(.failImageDonwload))
+               
+            }
+        
+        
+        //return nil
+    }
     
 }
 

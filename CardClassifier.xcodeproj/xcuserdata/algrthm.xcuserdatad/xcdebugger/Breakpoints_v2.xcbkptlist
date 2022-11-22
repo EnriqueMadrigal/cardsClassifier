@@ -132,5 +132,69 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA58DFB7-6E0E-491A-90C3-5361ACFED50E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardClassifier/Utils/UploadHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "loadImageFromUrl(url:completation:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FA58DFB7-6E0E-491A-90C3-5361ACFED50E - 24d8ef65f66a3857"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CardClassifier.loadImageFromUrl(url: Swift.String, completation: (Swift.Result&lt;Swift.Optional&lt;__C.UIImage&gt;, CardClassifier.ResultData.ResultError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardClassifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/algrthm/Documents/bairesdev/CardClassifier/CardClassifier/Utils/UploadHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "FA58DFB7-6E0E-491A-90C3-5361ACFED50E - e08fade50e7c14e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in CardClassifier.loadImageFromUrl(url: Swift.String, completation: (Swift.Result&lt;Swift.Optional&lt;__C.UIImage&gt;, CardClassifier.ResultData.ResultError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardClassifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/algrthm/Documents/bairesdev/CardClassifier/CardClassifier/Utils/UploadHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B205559E-E001-4503-AC34-BBDCC0189990"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardClassifier/Utils/UploadHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "loadImageFromUrl(url:completation:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 struct PokemonResult {
     
     var pokemon: String
@@ -14,4 +15,6 @@ struct PokemonResult {
     var poke_id: String
     var image_url: String
     var request_id: String
+    
+    //var currgentImage: UIImage
 }
