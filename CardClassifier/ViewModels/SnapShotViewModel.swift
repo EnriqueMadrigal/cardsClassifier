@@ -28,7 +28,7 @@ class SnapShotViewModel: NSObject, ObservableObject{
             
             //Upload image to server
             DispatchQueue.main.async {
-        
+        saveLocalImage(image: currentImage)
                     self.showProgressView = true
                 
                 var resultData: Any?
@@ -80,6 +80,7 @@ class SnapShotViewModel: NSObject, ObservableObject{
 
                                     if let customData = jsonData?["request_id"]{
                                         self.PokemonData?.request_id = customData
+                                        print(customData)
                                         
                                     }
 
